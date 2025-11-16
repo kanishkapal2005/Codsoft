@@ -1,1 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishka Pal - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="orbs">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+    </div>
 
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Kanishka Pal</div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <section id="home" class="section home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Hello, I'm <span>Kanishka Pal</span></h1>
+                <p class="typed-text">I'm a <span id="typed"></span></p>
+                <p>Passionate Frontend Developer creating stunning, responsive, and high-performance web experiences with modern technologies and creative design.</p>
+                <div class="home-buttons">
+                    <a href="resume.pdf" class="btn-primary" download><i class="fas fa-download"></i> Download Resume</a>
+                    <a href="https://www.linkedin.com/in/kanishka-pal-288951364/" class="btn-secondary" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="#contact" class="btn-secondary"><i class="fas fa-paper-plane"></i> Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About Me</h2>
+            </div>
+            <div class="card reveal">
+                <div class="about-img">
+                    <img src="k.jpg" alt="Kanishka Pal">
+                </div>
+                <div class="about-content">
+                    <h3>Frontend Developer & Creative Coder</h3>
+                    <p>I'm Kanishka Pal, a dedicated frontend developer pursuing B.Tech in Computer Science & Engineering at Hi-Tech Institute of Engineering and Technology, Ghaziabad (2024-2028). I specialize in crafting pixel-perfect, responsive, and interactive web applications using HTML, CSS, and JavaScript.</p>
+                    <p>Currently interning at Code Alpha as a Frontend Developer, I'm passionate about clean code, modern design patterns, and creating seamless user experiences that delight and engage.</p>
+                    <div class="about-highlight">
+                        <strong><i class="fas fa-bullseye"></i> Current Focus:</strong> Building scalable web apps, mastering React, and creating stunning UI animations.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="card skill-card reveal">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="progress-container">
+                        <div class="progress-fill" data-width="90"></div>
+                    </div>
+                    <small>90% Proficiency</small>
+                </div>
+                <div class="card skill-card reveal">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="progress-container">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                    <small>85% Proficiency</small>
+                </div>
+                <div class="card skill-card reveal">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-container">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                    <small>80% Proficiency</small>
+                </div>
+                <div class="card skill-card reveal">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="progress-container">
+                        <div class="progress-fill" data-width="75"></div>
+                    </div>
+                    <small>75% Proficiency</small>
+                </div>
+                <div class="card skill-card reveal">
+                    <i class="fas fa-code"></i>
+                    <h3>C Language</h3>
+                    <div class="progress-container">
+                        <div class="progress-fill" data-width="70"></div>
+                    </div>
+                    <small>70% Proficiency</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend Developer Intern</h3>
+                        <p><strong>Code Alpha</strong> • Nov 2025 - Dec 2025</p>
+                        <p>Developing responsive web applications, implementing modern UI/UX designs, and collaborating with senior developers to deliver high-quality frontend solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="card edu-card reveal">
+                    <div class="icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>B.Tech CSE</h3>
+                    <p>Hi-Tech Institute of Engineering and Technology, Ghaziabad</p>
+                    <p><small>2024 - 2028 (Pursuing)</small></p>
+                </div>
+                <div class="card edu-card reveal">
+                    <div class="icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Intermediate (PCM)</h3>
+                    <p>NEW RAINBOW PUB SCH P-BLK SEC-12 PRATAP VR GZBD</p>
+                    <div class="percentage">85%</div>
+                    <p><small>2022 - 2024</small></p>
+                </div>
+                <div class="card edu-card reveal">
+                    <div class="icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>High School</h3>
+                    <p>NEW RAINBOW PUB SCH P-BLK SEC-12 PRATAP VR GZBD</p>
+                    <div class="percentage">83%</div>
+                    <p><small>2020 - 2022</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="cal.jpg" alt="Calculator">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Calculator</h3>
+                        <p>A modern, fully functional calculator with smooth animations and responsive design.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/kanishkapal2005/CODE-ALPHA/tree/main/Calculator" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="img.jpg" alt="Image Gallery">
+                    </div>
+                    <div class="project-info">
+                        <h3>Dynamic Image Gallery</h3>
+                        <p>Interactive gallery with lightbox, search, filter, and smooth transitions.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/kanishkapal2005/CODE-ALPHA/tree/main/IMAGE-GALLARY" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="port.jpg" alt="Portfolio">
+                    </div>
+                    <div class="project-info">
+                        <h3>Animated Portfolio</h3>
+                        <p>Modern portfolio with dark theme, animations, and responsive layout.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/kanishkapal2005/CODE-ALPHA/tree/main/PORTFOLIO" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="health.jpg" alt="Healthcare">
+                    </div>
+                    <div class="project-info">
+                        <h3>Healthcare Platform</h3>
+                        <p>Professional healthcare frontend with appointment system and modern UI.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="http://github.com/kanishkapal2005/MINI-PROJECT/tree/main" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="card contact-card reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>kksnehapal@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>+91 9643089849</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Call</h4>
+                        <p>+91 9643089849</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>kanishkapal2005</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <h4>LinkedIn</h4>
+                        <p>kanishka-pal-288951364</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" required>
+                        <label>Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required>
+                        <label>Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" required></textarea>
+                        <label>Your Message</label>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 15px;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Kanishka Pal</h3>
+                    <p>Frontend Developer | UI Designer | Computer Science Student</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kanishka-pal-288951364/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/kanishkapal2005" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:kksnehapal@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/919643089849" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+919643089849" title="Call"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Projects</h3>
+                    <ul>
+                        <li><a href="#">Calculator App</a></li>
+                        <li><a href="#">Image Gallery</a></li>
+                        <li><a href="#">Portfolio Website</a></li>
+                        <li><a href="#">Healthcare Frontend</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Kanishka Pal. All rights reserved. Made with <i class="fas fa-heart" style="color: #ff2e97;"></i> in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
