@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Responsive Image Gallery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Enhanced Image Gallery</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by title or description...">
+                <button id="clearSearch" aria-label="Clear search">&times;</button>
+            </div>
+            <div class="filter-container">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <!-- Categories will be populated via JS -->
+                </select>
+                <button id="toggleView" aria-label="Toggle view">Toggle View</button>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <div class="container">
+            <div class="gallery" id="gallery">
+                <!-- Images will be injected via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <span class="nav-arrow prev-arrow" id="prevBtn">&#8249;</span>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <span class="nav-arrow next-arrow" id="nextBtn">&#8250;</span>
+        <div class="lightbox-caption" id="lightboxCaption">
+            <h3></h3>
+            <p></p>
+        </div>
+        <div class="lightbox-actions">
+            <button id="downloadBtn" aria-label="Download image">Download</button>
+            <button id="shareBtn" aria-label="Share image">Share</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Image Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
